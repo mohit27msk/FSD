@@ -1,0 +1,19 @@
+<!DOCTYPE Employees SYSTEM "employee.dtd">
+<Employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="employee.xsd">
+
+    <Employee id="E1234">
+        <Name>John Doe</Name>
+        <Department>IT</Department>
+        <BasicSalary>45000</BasicSalary>
+    </Employee>
+
+        
+        <Employee id="E-56">  (ID fails DTD/XSD pattern)
+            <Name>John</Name>
+            <Department>IT</Department>
+            <BasicSalary>45000</BasicSalary>
+        </Employee>
+
+    
+</Employees>
